@@ -1,0 +1,79 @@
+Please parse the following resume and convert it into a JSON format. The JSON should include the following fields: name, contact_information, summary, experience, education, skills, and projects. Each field should be populated with the corresponding information from the resume.
+Input Resume:
+
+[Your resume content here]
+
+Output JSON:
+
+{
+  "name": "John Doe",
+  "contact_information": {
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "address": "123 Main St, Anytown, USA"
+  },
+  "summary": "Experienced software engineer with a strong background in developing scalable applications using Java, Python, and JavaScript.",
+  "experience": [
+    {
+      "company": "Tech Solutions",
+      "position": "Senior Software Engineer",
+      "location": "New York, NY",
+      "start_date": "January 2018",
+      "end_date": "Present",
+      "responsibilities": [
+        "Lead a team of 5 developers to build and maintain a SaaS application.",
+        "Designed and implemented RESTful APIs using Java and Spring Boot.",
+        "Optimized database queries to improve performance by 30%."
+      ]
+    },
+    {
+      "company": "Web Innovations",
+      "position": "Software Engineer",
+      "location": "San Francisco, CA",
+      "start_date": "June 2015",
+      "end_date": "December 2017",
+      "responsibilities": [
+        "Developed front-end interfaces using React and Redux.",
+        "Collaborated with designers to create user-friendly web applications.",
+        "Implemented unit tests to ensure code quality and reliability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University",
+      "degree": "Bachelor of Science in Computer Science",
+      "location": "Anytown, USA",
+      "graduation_year": "2015"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "React",
+    "Spring Boot",
+    "SQL",
+    "Git"
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Website",
+      "description": "Developed a full-stack e-commerce website using the MERN stack.",
+      "technologies": [
+        "MongoDB",
+        "Express.js",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Mobile App",
+      "description": "Created a cross-platform mobile app using Flutter and Dart.",
+      "technologies": [
+        "Flutter",
+        "Dart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Kanishk Kumar",
+  "contact_information": {
+    "email": "kb4464@srmist.edu.in",
+    "phone": "123456789",
+    "address": "Chennai, Tamil Nadu, India"
+  },
+  "summary": "This is a sample summary.",
+  "experience": [
+    {
+      "company": "ABC Solutions",
+      "position": "SDE",
+      "location": "Chennai",
+      "start_date": "2021",
+      "end_date": "2025",
+      "responsibilities": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "SRM Institute of Science and Technology",
+      "degree": "",
+      "location": "",
+      "graduation_year": "2025"
+    }
+  ],
+  "skills": [
+    "C",
+    "C++",
+    "Python",
+    "Java",
+    "Image Processing",
+    "Web Development"
+  ],
+  "projects": [
+    {
+      "name": "Stockiment",
+      "description": "Stock Price Prediction based on Market Sentiment.",
+      "technologies": []
+    },
+    {
+      "name": "English Handwriting Recognition",
+      "description": "Detect Handwritten images.",
+      "technologies": []
+    }
+  ]
+}
